@@ -89,6 +89,7 @@
             this.btnTru.TabIndex = 5;
             this.btnTru.Text = "Trừ";
             this.btnTru.UseVisualStyleBackColor = true;
+            this.btnTru.Click += new System.EventHandler(this.btnTru_Click);
             // 
             // btnNhan
             // 

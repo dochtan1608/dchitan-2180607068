@@ -26,5 +26,15 @@ namespace WindowsFormsApp1
             txtKetQua.Text = Cong+"";
 
         }
+
+        private void btnTru_Click(object sender, EventArgs e)
+        {
+            int Tru = 0;
+            Console.WriteLine(txtSoA.Text);
+            Console.WriteLine(txtSoB.Text);
+            Tru = int.Parse(txtSoA.Text) - int.Parse(txtSoB.Text);
+            txtKetQua.Text = Tru + "";
+
+        }
     }
 }
